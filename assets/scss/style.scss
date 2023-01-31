@@ -1,0 +1,69 @@
+body{
+  overflow-x: hidden;
+  font-family: "A Iranian Sans", serif;
+}
+
+//carousel
+.carou{
+  div{
+    img{
+      max-width: 100%;
+      height: 600px;
+    }
+  }
+}
+
+//collection sidebar
+
+.collection-box{
+  margin-right: 45px;
+  transition: 666ms;
+  width: 180px;
+  display: inline;
+  &:hover{
+    ul{
+      border-top: 1px solid darkgray;
+    }
+    .side-hover{
+      transform: translateX(100px);
+      margin-right: 50px;
+      width: 235px;
+      display: block;
+      position: absolute;
+      background: white;
+      z-index: 9999;
+    }
+  }
+};
+
+
+.side-hover{
+  margin-right: -300px;
+  display: none;
+  ul{
+    width: 180px;
+  }
+  li{
+    font-size: 13px;
+    height: 28px;
+    margin: 5px 5px;
+    list-style: none;
+    display: block;
+    a{
+      text-decoration: none;
+      color: dimgray;
+    }
+  }
+  &:hover{
+    a{
+      background: rgba(255,44,44,0.02);
+    }
+  }
+}
+
+//body cards style
+
+.custom-img{
+  height: 450px;
+  width: 500px;
+}

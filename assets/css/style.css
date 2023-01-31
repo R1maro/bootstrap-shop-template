@@ -1,0 +1,57 @@
+body {
+  overflow-x: hidden;
+  font-family: "A Iranian Sans", serif;
+}
+
+.carou div img {
+  max-width: 100%;
+  height: 600px;
+}
+
+.collection-box {
+  margin-right: 45px;
+  transition: 666ms;
+  width: 180px;
+  display: inline;
+}
+.collection-box:hover ul {
+  border-top: 1px solid darkgray;
+}
+.collection-box:hover .side-hover {
+  transform: translateX(100px);
+  margin-right: 50px;
+  width: 235px;
+  display: block;
+  position: absolute;
+  background: white;
+  z-index: 9999;
+}
+
+.side-hover {
+  margin-right: -300px;
+  display: none;
+}
+.side-hover ul {
+  width: 180px;
+}
+.side-hover li {
+  font-size: 13px;
+  height: 28px;
+  margin: 5px 5px;
+  list-style: none;
+  display: block;
+}
+.side-hover li a {
+  text-decoration: none;
+  color: dimgray;
+}
+.side-hover:hover a {
+  background: rgba(255, 44, 44, 0.02);
+}
+
+.custom-img {
+  height: 450px;
+  width: 500px;
+}
+
+/*# sourceMappingURL=style.css.map */
