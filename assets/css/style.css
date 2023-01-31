@@ -10,25 +10,25 @@ body {
 
 .collection-box {
   margin-right: 45px;
+  padding: 10px;
   transition: 666ms;
   width: 180px;
-  display: inline;
+  display: block;
 }
 .collection-box:hover ul {
   border-top: 1px solid darkgray;
 }
 .collection-box:hover .side-hover {
   transform: translateX(100px);
-  margin-right: 50px;
+  margin-top: 50px;
   width: 235px;
-  display: block;
+  display: inline-block;
   position: absolute;
   background: white;
   z-index: 9999;
 }
 
 .side-hover {
-  margin-right: -300px;
   display: none;
 }
 .side-hover ul {
@@ -39,7 +39,6 @@ body {
   height: 28px;
   margin: 5px 5px;
   list-style: none;
-  display: block;
 }
 .side-hover li a {
   text-decoration: none;
