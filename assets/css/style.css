@@ -48,6 +48,31 @@ body {
   background: rgba(255, 44, 44, 0.02);
 }
 
+.gradient {
+  background: rgb(226, 225, 223);
+  background: linear-gradient(180deg, rgb(226, 225, 223) 0%, rgb(142, 154, 151) 24%, rgb(7, 40, 35) 59%);
+  width: 80%;
+  float: left;
+  position: relative;
+  height: 400px;
+  margin-top: 10px;
+}
+.gradient p {
+  margin-top: -20px;
+  font-family: Aldhabi;
+  font-size: 20em;
+  color: white;
+}
+
+.qr-code {
+  float: right;
+  margin-top: 10px;
+  margin-right: 50px;
+}
+.qr-code img {
+  width: 308px;
+}
+
 .custom-img {
   height: 450px;
   width: 500px;
